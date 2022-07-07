@@ -1,0 +1,9 @@
+<h1>all certificates</h1>
+
+{% for certificate in certificate_list %}
+
+<ul>
+    <li>IMEI: {{ certificate.imei }}</li>
+    <li>Content: {{ certificate.content }}</li>
+</ul>
+{% endfor %}
